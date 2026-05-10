@@ -1,82 +1,97 @@
 # Greek Social Media Language Analysis
 
 ## Abstract
-This project investigates linguistic patterns in informal Greek communication on social media. Using basic Natural Language Processing (NLP) techniques, the study explores lexical frequency, emotional expression, and the pragmatic role of emojis in digital discourse.
+This project presents an exploratory linguistic analysis of informal Greek digital communication using basic Natural Language Processing (NLP) techniques. The focus is on lexical distribution, emotional expression, and the pragmatic function of emojis in social media-style discourse.
 
 ---
 
-## 1. Introduction
-Digital communication in Greek exhibits distinctive linguistic features influenced by informality, emotional expression, and multimodal elements such as emojis. This project provides a small-scale exploratory analysis of these patterns.
+## 1. Overview
+This study examines how contemporary Greek is used in informal online contexts. Particular attention is given to the interaction between lexical choices and non-verbal digital elements (e.g. emojis), which contribute to meaning construction in computer-mediated communication.
 
 ---
 
-## 2. Objectives
-The main objectives of this study are:
-- To construct a small Greek text corpus representing social media-style language
-- To perform tokenization and frequency analysis of lexical items
-- To examine the use of emotional markers such as emojis and laughter expressions
-- To identify patterns of informal digital discourse in Greek
+## 2. Research Objectives
+The objectives of this analysis are:
+
+- To construct a small exploratory corpus of informal Greek text
+- To examine lexical frequency patterns
+- To identify recurrent emotional and pragmatic markers
+- To analyze the role of emojis in discourse structuring
+- To demonstrate basic NLP techniques in linguistic analysis
 
 ---
 
 ## 3. Methodology
-The analysis was conducted using Python in a Google Colab environment. The workflow included:
+The analysis was conducted using Python in a Google Colab environment.
 
-- **Corpus creation**: A manually constructed dataset of Greek social media-like sentences
-- **Tokenization**: Splitting text into individual tokens (words)
-- **Frequency analysis**: Using Python’s `Counter` module to compute word frequencies
-- **Emoji extraction**: Identification and analysis of emotional markers in text
+The workflow included:
 
----
-
-## 4. Tools and Technologies
-- Python
-- Google Colab
-- collections (Counter)
-- Basic NLP techniques
+- **Corpus compilation**: A small dataset of Greek informal utterances was manually constructed
+- **Tokenization**: Segmentation of text into lexical units
+- **Frequency analysis**: Application of `Counter` for word frequency extraction
+- **Emoji extraction**: Identification of non-verbal emotional markers within text
 
 ---
 
-## 5. Results and Findings
-The analysis reveals several key patterns:
+## 4. Theoretical Background
+The analysis is situated within:
 
-- High frequency of informal and conversational expressions
-- Recurrent use of emotional markers such as emojis (e.g. 😂, 😭, 😍)
-- Laughter expressions such as "χαχα" indicate strong conversational tone
-- Emojis function as pragmatic and emotional signals rather than purely decorative elements
+- Corpus Linguistics
+- Pragmatics in Computer-Mediated Communication (CMC)
+- Digital Discourse Analysis
+- Multimodal Communication Theory
+
+---
+
+## 5. Findings
+The analysis indicates:
+
+- A high degree of informality in lexical selection
+- Frequent use of affective markers (e.g. emojis, laughter expressions such as "χαχα")
+- Emojis functioning as pragmatic and emotional reinforcement devices
+- Compression of meaning through multimodal expression in digital contexts
 
 ---
 
 ## 6. Discussion
-The findings suggest that Greek online communication is highly expressive and context-dependent. Emotional and pragmatic meaning is often conveyed through non-textual elements such as emojis, which complement or replace verbal expression.
+The findings support the view that contemporary Greek digital discourse relies heavily on multimodal semiotic resources. Emojis and informal lexical items function not merely as stylistic elements, but as integral components of meaning construction.
 
 ---
 
 ## 7. Limitations
-This project is exploratory in nature and based on a small dataset. Therefore, the results are not statistically generalizable but serve as a methodological demonstration.
+This study is limited by its small-scale, non-representative dataset. It is intended as a methodological demonstration rather than a statistically generalizable analysis.
 
 ---
 
 ## 8. Future Work
-Future improvements could include:
-- Sentiment analysis of Greek text
-- Larger and more realistic corpora (e.g. Twitter, forums)
-- Part-of-speech tagging
-- Topic modeling
-- Dialectal variation analysis
-- Comparative studies with other languages
+Future extensions may include:
+
+- Large-scale corpus analysis (e.g. social media APIs)
+- Sentiment analysis using pretrained NLP models
+- Part-of-speech tagging in Greek
+- Cross-linguistic comparison of digital discourse
+- Discourse-level annotation
 
 ---
 
-## 9. Files
-- `greek_analysis.ipynb` → main analysis notebook
+## 9. Technologies
+- Python
+- Google Colab
+- Collections (Counter)
+- Basic NLP methods
 
 ---
 
-## 10. Author
-Linguistics student with interest in computational linguistics, corpus analysis, and digital language practices.
+## 10. File Structure
+
+- `greek_analysis.ipynb` → main analytical notebook
 
 ---
 
-## 11. Conclusion
-This project demonstrates how basic NLP techniques can be applied to explore linguistic patterns in informal Greek digital communication, highlighting the role of emotional and pragmatic markers in online discourse.
+## 11. Author
+BA/graduate-level linguist with interests in computational linguistics, discourse analysis, and digital language practices.
+
+---
+
+## 12. Conclusion
+This project demonstrates how lightweight computational methods can be used to explore linguistic phenomena in informal digital Greek, with emphasis on pragmatic meaning and multimodal communication.
